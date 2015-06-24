@@ -11,12 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150624212956) do
+ActiveRecord::Schema.define(version: 20150624213406) do
 
   create_table "rsvps", force: true do |t|
     t.string  "rsvp_code"
     t.string  "guest_names"
     t.boolean "welcomedinner"
+    t.boolean "sundaybrunch"
   end
 
 end

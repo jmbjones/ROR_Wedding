@@ -25,3 +25,16 @@
               Will Attend
             %a{:href=>"#willnotattend"}
               Will Not Attend
+=if @rsvp.sundaybrunch
+  .nav-collapse
+    %ul.nav
+      %li.dropdown
+        %a.dropdown-toggle{:href => "#", "role"=>"button", "data-toggle" => "dropdown", "data-target"=>"#"}
+          Sunday Morning Brunch at 10am
+          %b.caret
+        %ul.dropdown-menu{"role"=>"menu"}
+          %li
+            %a{:href=>"#willattend"}
+              Will Attend
+            %a{:href=>"#willnotattend"}
+              Will Not Attend
