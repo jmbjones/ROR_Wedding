@@ -1,3 +1,4 @@
 %h1 RSVP Code here
-%input{:type=>"text", :required => true}
-%button{:type=>"submit"} Submit
+%form{:action=>"/check_rsvp_code", :method=>"post"}
+  %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+  =button_to "Submit", :action => "check_rsvp_code"

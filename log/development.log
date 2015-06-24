@@ -2078,3 +2078,3134 @@ Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 13:28:07 -0500
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 13:28:07 -0500
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:11 -0500
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:38:27 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.5ms)
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 13:38:28 -0500
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:39:30 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:2: syntax error, unexpected tSTRING_BEG, expecting ')'
+...t.attributes({}, nil, :action="/rsvp", :method=>"post")}>\n ...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:2: syntax error, unexpected ',', expecting tSTRING_DEND
+...butes({}, nil, :action="/rsvp", :method=>"post")}>\n  <input...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:2: syntax error, unexpected ')', expecting tSTRING_DEND
+...ction="/rsvp", :method=>"post")}>\n  <input#{_hamlout.adjust...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, :type=>"text", :requir...
+                      ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: Can't assign to nil
+_hamlout.attributes({}, nil, :type=>"text", :required => ...
+                            ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected =>, expecting :: or '[' or '.'
+...out.attributes({}, nil, :type=>"text", :required => true)}>\...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected ',', expecting tSTRING_DEND
+...ributes({}, nil, :type=>"text", :required => true)}>\n  <inp...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...uired => true)}>\n  <input type='submit'>\n</form>\n", -1, f...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected $undefined
+...ue)}>\n  <input type='submit'>\n</form>\n", -1, false);::Ham...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: unterminated regexp meets end of file
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:40:31 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:2: syntax error, unexpected tSTRING_BEG, expecting ')'
+...t.attributes({}, nil, :action="/rsvp_code_check", :method=>"...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:2: syntax error, unexpected ',', expecting tSTRING_DEND
+...il, :action="/rsvp_code_check", :method=>"post")}>\n  <input...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:2: syntax error, unexpected ')', expecting tSTRING_DEND
+...p_code_check", :method=>"post")}>\n  <input#{_hamlout.adjust...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, :type=>"text", :requir...
+                      ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: Can't assign to nil
+_hamlout.attributes({}, nil, :type=>"text", :required => ...
+                            ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected =>, expecting :: or '[' or '.'
+...out.attributes({}, nil, :type=>"text", :required => true)}>\...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected ',', expecting tSTRING_DEND
+...ributes({}, nil, :type=>"text", :required => true)}>\n  <inp...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...uired => true)}>\n  <input type='submit'>\n</form>\n", -1, f...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected $undefined
+...ue)}>\n  <input type='submit'>\n</form>\n", -1, false);::Ham...
+...                               ^
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: unterminated regexp meets end of file
+/Users/mjones/currentwedding/app/views/home/rsvp_code.html.haml:3: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 13:41:09 -0500
+
+
+Started POST "/rsvp_code_check" for 127.0.0.1 at 2015-06-24 13:41:13 -0500
+
+ActionController::RoutingError (No route matches [POST] "/rsvp_code_check"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.4ms)
+
+
+Started POST "/rsvp_code_check" for 127.0.0.1 at 2015-06-24 13:46:08 -0500
+
+ActionController::RoutingError (No route matches [POST] "/rsvp_code_check"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.1ms)
+
+
+Started POST "/rsvp_code_check" for 127.0.0.1 at 2015-06-24 13:46:12 -0500
+
+ActionController::RoutingError (No route matches [POST] "/rsvp_code_check"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.1ms)
+
+
+Started POST "/rsvp_code_check" for 127.0.0.1 at 2015-06-24 13:46:31 -0500
+
+ActionController::RoutingError (No route matches [POST] "/rsvp_code_check"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.8ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:46:33 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRsvpTable (20150624184651)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "rsvp" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150624184651"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_rsvp_invitations_on_rsvp_code' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_rsvp_invitations_on_rsvp_code' AND type='index'
+[0m
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:47:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:47:27 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.3ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:47:29 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRsvpCodetoRsvp (20150624184756)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "rsvp" ADD "rsvp_code" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150624184756"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_rsvp_invitations_on_rsvp_code' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_rsvp_invitations_on_rsvp_code' AND type='index'
+[0m
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:49:00 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:49:01 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 13:49:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.5ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:49:11 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 9ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:6:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:51:48 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:58:54 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 13:59:29 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 7ms
+
+NameError (uninitialized constant HomeController::Rsvp):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:01:02 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `find' for Rsvp:Class):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:01:05 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `find' for Rsvp:Class):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:01:06 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:01:11 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `find' for Rsvp:Class):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:02:31 -0500
+Processing by HomeController#rsvp_code as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `where' for Rsvp:Class):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/new_rsvp.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 198ms (Views: 193.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.9ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:02:55 -0500
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:03:33 -0500
+Processing by HomeController#rsvp_code as HTML
+  [1m[35mRsvp Load (0.4ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1
+SQLite3::SQLException: no such table: rsvps: SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: rsvps: SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:03:56 -0500
+Processing by HomeController#rsvp_code as HTML
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1[0m
+SQLite3::SQLException: no such table: rsvps: SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: rsvps: SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:03:56 -0500
+Processing by HomeController#rsvp_code as HTML
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1
+SQLite3::SQLException: no such table: rsvps: SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: rsvps: SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1):
+  app/controllers/home_controller.rb:5:in `rsvp_code'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "rsvp" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "rsvp_code" varchar(255)) [0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "rsvp_access_attempts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "remote_ip" varchar(255), "failed_attempts" integer DEFAULT 0, "locked_until" datetime, "locks_incurred" integer DEFAULT 0, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "rsvp_families" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "salutation_type" varchar(50), "salutation" varchar(255), "street_1" varchar(75), "street_2" varchar(75), "city" varchar(50), "state" varchar(25), "postal_code" varchar(15), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "rsvp_invitations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "family_id" integer, "salutation_type" varchar(50), "salutation" varchar(255), "rsvp_code" varchar(20), "total_invited" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX "index_rsvp_invitations_on_rsvp_code" ON "rsvp_invitations" ("rsvp_code")
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "rsvp_members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "family_id" integer, "person_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "rsvp_people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "gender_type" varchar(50), "first_name" varchar(50), "last_name" varchar(50), "suffix" varchar(15), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "rsvp_responses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "invitation_id" integer, "email" varchar(50), "total_attending" integer, "comment" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150624184756')[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150624184651')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DropTables (20150624190522)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.6ms)[0m  [1mDROP TABLE "rsvp"[0m
+  [1m[35m (0.9ms)[0m  DROP TABLE "rsvp_access_attempts"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "rsvp_families"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "rsvp_invitations"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "rsvp_members"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "rsvp_people"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "rsvp_responses"[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150624190522"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150624190522')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150624184651')
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150624184756')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRsvpsTable (20150624190713)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRsvpsTable (20150624190713)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "rsvps" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "rsvp_code" varchar(255)) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150624190713"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:08:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#rsvp_code as HTML
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" IS NULL LIMIT 1
+  Rendered home/wrong_code.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:15 -0500
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.3ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:08:47 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:08:51 -0500
+
+ActionController::RoutingError (No route matches [POST] "/check_rsvp_code"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.2ms)
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:09:12 -0500
+
+ActionController::RoutingError (No route matches [POST] "/check_rsvp_code"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.2ms)
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:09:14 -0500
+
+ActionController::RoutingError (No route matches [POST] "/check_rsvp_code"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.2ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:10:42 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:13:15 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:13:17 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.5ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:14:50 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:14:53 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:15:00 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:16:29 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.3ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:16:32 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:21:25 -0500
+
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  config/routes.rb:19:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:21:27 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"check_rsvp_code", :controller=>"home"}):
+    1: %h1 RSVP Code here
+    2: %form{:action=>"/check_rsvp_code", :method=>"post"}
+    3:   %input{:type=>"text", :required => true, :name=>"rsvp_code"}
+    4:   -button_to "Submit", :action => "check_rsvp_code"
+  app/views/home/rsvp_code.html.haml:4:in `_app_views_home_rsvp_code_html_haml___654286272408148404_70187415845520'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:22:00 -0500
+
+SyntaxError (/Users/mjones/currentwedding/config/routes.rb:19: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  post 'check_rsvp_code' to: 'home#check_rsvp_code'
+                           ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.1) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:22:34 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:22:39 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.1.1) lib/action_controller/metal/request_forgery_protection.rb:176:in `handle_unverified_request'
+  actionpack (4.1.1) lib/action_controller/metal/request_forgery_protection.rb:202:in `handle_unverified_request'
+  actionpack (4.1.1) lib/action_controller/metal/request_forgery_protection.rb:197:in `verify_authenticity_token'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:10 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[36mRsvp Load (0.1ms)[0m  [1mSELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1[0m
+  Rendered home/wrong_code.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:23:14 -0500
+
+
+Started GET "/home/rsvp_code" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+Processing by HomeController#rsvp_code as HTML
+  Rendered home/rsvp_code.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:24:56 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1
+  Rendered home/wrong_code.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.8ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:01 -0500
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1[0m
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT  "rsvps".* FROM "rsvps"   ORDER BY "rsvps"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "rsvps" ("rsvp_code") VALUES (?)  [["rsvp_code", "kylemorgan1"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT  "rsvps".* FROM "rsvps"   ORDER BY "rsvps"."id" ASC LIMIT 1
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[36mRsvp Load (0.1ms)[0m  [1mSELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1[0m
+  Rendered home/new_rsvp.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:25:58 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan2", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan2' LIMIT 1
+  Rendered home/wrong_code.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-24 14:26:14 -0500
