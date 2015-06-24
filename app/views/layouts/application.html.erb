@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <title>Wedding</title>
+  <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/lil-grotesk" rel="stylesheet" type="text/css"/>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+ <nav class="navbar navbar-default">
+   <div class="container-fuild">
+    <a class="navbar-brand"><%= link_to "K & M", root_path %></a>
+   </div>
+   <div>
+     <ul class="nav navbar-nav">
+       <li><%= link_to "Important Information", home_info_path %></li>
+       <li><%= link_to "Engagement Gallery", home_engagement_path %></li>
+       <li><%= link_to "Things To Do", home_todo_path %></li>
+       <li><%= link_to "Wedding Party", home_party_path %></li>
+       <li><%= link_to "Save The Date", home_save_the_date_path %></li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+<%= yield %>
+
+</body>
+</html>
