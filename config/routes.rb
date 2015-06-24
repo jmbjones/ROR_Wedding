@@ -14,6 +14,7 @@ root to: 'home#index'
 	get 'home/todo'
 	get 'home/save_the_date'
 	get 'home/details'
+  get 'home/rsvp_code'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
