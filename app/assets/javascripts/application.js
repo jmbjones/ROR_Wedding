@@ -20,3 +20,4 @@
 //= require_tree .
 // Can also be used with $(document).ready()
 
+$(".selectpicker").selectpicker();

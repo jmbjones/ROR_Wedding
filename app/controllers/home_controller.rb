@@ -11,4 +11,7 @@ class HomeController < ApplicationController
       render "wrong_code"
     end
   end
+  def update_rsvp
+    render "rsvp_done"
+  end
 end

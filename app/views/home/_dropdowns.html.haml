@@ -1,41 +1,17 @@
 %h4 
-  = @guest
-.nav-collapse
-  %ul.nav
-    %li.dropdown
-      %a.dropdown-toggle{:href => "#", "role"=>"button", "data-toggle" => "dropdown", "data-target"=>"#"}
-        Wedding Ceremony and Reception 
-        %b.caret
-      %ul.dropdown-menu{"role"=>"menu"}
-        %li
-          %a{:href=>"#willattend"}
-            Will Attend
-          %a{:href=>"#willnotattend"}
-            Will Not Attend
-=if @rsvp.welcomedinner
-  .nav-collapse
-    %ul.nav
-      %li.dropdown
-        %a.dropdown-toggle{:href => "#", "role"=>"button", "data-toggle" => "dropdown", "data-target"=>"#"}
-          Welcome Dinner Friday Night at 6pm 
-          %b.caret
-        %ul.dropdown-menu{"role"=>"menu"}
-          %li
-            %a{:href=>"#willattend"}
-              Will Attend
-            %a{:href=>"#willnotattend"}
-              Will Not Attend
-=if @rsvp.sundaybrunch
-  .nav-collapse
-    %ul.nav
-      %li.dropdown
-        %a.dropdown-toggle{:href => "#", "role"=>"button", "data-toggle" => "dropdown", "data-target"=>"#"}
-          Sunday Morning Brunch at 10am
-          %b.caret
-        %ul.dropdown-menu{"role"=>"menu"}
-          %li
-            %a{:href=>"#willattend"}
-              Will Attend
-            %a{:href=>"#willnotattend"}
-              Will Not Attend
+  = guest
+Wedding Ceremony and Reception 
+%select.selectpicker
+  %option Will Attend
+  %option Will Not Attend
+-if rsvp.welcomedinner
+  Welcome Dinner Friday Night at 6pm 
+  %select.selectpicker
+    %option Will Attend
+    %option Will Not Attend
+-if rsvp.sundaybrunch
+  Sunday Morning Brunch at 10am
+  %select.selectpicker
+    %option Will Attend
+    %option Will Not Attend
 %input{:type => "text", :name=>"email", :required=>true, :placeholder=>"Email For Confirmation"}
