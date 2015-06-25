@@ -51,3 +51,4 @@ gem "twitter-bootstrap-rails", "~>3.2.0"
 gem "leaflet-rails"
 gem "leaflet-makimarkers-rails"
 gem 'haml'
+gem 'pry-rails'

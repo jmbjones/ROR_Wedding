@@ -1,3 +1,5 @@
 %h1 Now Let's RSVP
-=render_guest_partials(@rsvp)
-=button_to "Submit", :action => "update_rsvp"
+=form_for @rsvp, url: update_rsvp_path do
+  -@rsvp.guests.each do |guest|
+    = render "dropdowns", {:rsvp=>@rsvp, :guest=>guest}
+  =submit_tag "Submit"

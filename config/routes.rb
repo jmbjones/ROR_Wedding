@@ -14,10 +14,10 @@ root to: 'home#index'
 	get 'home/todo'
 	get 'home/save_the_date'
 	get 'home/details'
-  get 'home/rsvp_code'
+  get 'rsvp', to: 'home#rsvp'
 
   post 'check_rsvp_code', to: 'home#check_rsvp_code'
-  post 'update_rsvp', to: 'home#update_rsvp'
+  patch 'update_rsvp', to: 'home#update_rsvp'
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
