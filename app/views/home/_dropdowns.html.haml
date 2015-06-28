@@ -1,7 +1,10 @@
 =fields_for "rsvp[guests_attributes][]", guest do |form|
   =form.hidden_field :id
   %h4 
-    =guest.name
+    -if guest.name == "Guest"
+      =form.text_field(:name, {:required=>true, :placeholder=>"Guest Name"})
+    -else
+      =guest.name
   Wedding Ceremony and Reception 
   =form.select(:wedding_response, [["Will Attend", "true"], ["Will Not Attend", "false"]], {}, {:class=>"selectpicker"})
   -if rsvp.welcomedinner

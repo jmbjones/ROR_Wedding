@@ -31936,3 +31936,2014 @@ Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-25 16:51:51 -0500
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-25 16:51:51 -0500
   [1m[36mGuest Load (0.2ms)[0m  [1mSELECT  "guests".* FROM "guests"   ORDER BY "guests"."id" DESC LIMIT 1[0m
+
+
+Started GET "/rsvp" for 127.0.0.1 at 2015-06-26 22:27:57 -0500
+Processing by HomeController#rsvp as HTML
+  Rendered home/rsvp.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 93ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-26 22:27:58 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[36mRsvp Load (1.8ms)[0m  [1mSELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1[0m
+  [1m[35mGuest Load (0.2ms)[0m  SELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ?  [["rsvp_id", 1]]
+  Rendered home/_dropdowns.html.haml (3.6ms)
+  Rendered home/new_rsvp.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 25ms (Views: 18.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:03 -0500
+
+
+Started PATCH "/update_rsvp" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+Processing by HomeController#update_rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw=", "rsvp"=>{"guests_attributes"=>{"3"=>{"id"=>"3", "wedding_response"=>"false", "welcome_dinner_response"=>"false", "email"=>"mikeisthebest@gmail.com"}}}, "commit"=>"Submit"}
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mGuest Load (0.1ms)[0m  [1mSELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ? AND "guests"."id" IN (3)[0m  [["rsvp_id", 1]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "guests" SET "wedding_response" = ?, "welcome_dinner_response" = ? WHERE "guests"."id" = 3  [["wedding_response", "f"], ["welcome_dinner_response", "f"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  Rendered home/rsvp_done.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 11.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:13 -0500
+
+
+Started GET "/rsvp" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+Processing by HomeController#rsvp as HTML
+  Rendered home/rsvp.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:18 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1
+  [1m[36mGuest Load (0.1ms)[0m  [1mSELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ?[0m  [["rsvp_id", 1]]
+  Rendered home/_dropdowns.html.haml (0.8ms)
+  Rendered home/new_rsvp.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:22 -0500
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-26 22:28:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:27 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-26 22:28:27 -0500
+
+
+Started GET "/rsvp" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+Processing by HomeController#rsvp as HTML
+  Rendered home/rsvp.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 27ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-27 11:05:29 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan1", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[35mRsvp Load (0.7ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1
+  [1m[36mGuest Load (0.1ms)[0m  [1mSELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ?[0m  [["rsvp_id", 1]]
+  Rendered home/_dropdowns.html.haml (2.1ms)
+  Rendered home/new_rsvp.html.haml within layouts/application (13.8ms)
+Completed 200 OK in 29ms (Views: 25.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:05 -0500
+
+
+Started PATCH "/update_rsvp" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+Processing by HomeController#update_rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw=", "rsvp"=>{"guests_attributes"=>{"3"=>{"id"=>"3", "wedding_response"=>"false", "welcome_dinner_response"=>"false", "email"=>"mikeisthebest@gmail.com"}}}, "commit"=>"Submit"}
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mGuest Load (0.1ms)[0m  SELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ? AND "guests"."id" IN (3)  [["rsvp_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered home/rsvp_done.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-27 11:06:27 -0500
+  [1m[35mRsvp Load (4.8ms)[0m  SELECT "rsvps".* FROM "rsvps"
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "guests" ("name", "rsvp_id") VALUES (?, ?)  [["name", "Guest"], ["rsvp_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "guests" ("name", "rsvp_id") VALUES (?, ?)[0m  [["name", "Tyler Burkhardt"], ["rsvp_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+
+
+Started GET "/rsvp" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+Processing by HomeController#rsvp as HTML
+  Rendered home/rsvp.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 46ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:22 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan2", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[35mRsvp Load (0.9ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan2' LIMIT 1
+  [1m[36mGuest Load (0.1ms)[0m  [1mSELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ?[0m  [["rsvp_id", 2]]
+  Rendered home/_dropdowns.html.haml (3.8ms)
+  Rendered home/_dropdowns.html.haml (1.4ms)
+  Rendered home/new_rsvp.html.haml within layouts/application (13.3ms)
+Completed 200 OK in 29ms (Views: 24.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:31 -0500
+
+
+Started POST "/check_rsvp_code" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+Processing by HomeController#check_rsvp_code as HTML
+  Parameters: {"rsvp_code"=>"kylemorgan2", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw="}
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan2' LIMIT 1
+  [1m[36mGuest Load (0.1ms)[0m  [1mSELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ?[0m  [["rsvp_id", 2]]
+  Rendered home/_dropdowns.html.haml (1.3ms)
+  Rendered home/_dropdowns.html.haml (0.5ms)
+  Rendered home/new_rsvp.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-28 13:48:35 -0500
+
+
+Started PATCH "/update_rsvp" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+Processing by HomeController#update_rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"00avzvDic36YIKvK0by6s+FkqMyVzvSXyopawXWQ4hw=", "rsvp"=>{"guests_attributes"=>{"4"=>{"id"=>"4", "name"=>"Julia Whatever", "wedding_response"=>"true", "email"=>"juliawhatever@gmail.com"}, "5"=>{"id"=>"5", "wedding_response"=>"true", "email"=>"tyler@gmail.com"}}}, "commit"=>"Submit"}
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT  "rsvps".* FROM "rsvps"  WHERE "rsvps"."rsvp_code" = 'kylemorgan2' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mGuest Load (1.3ms)[0m  SELECT "guests".* FROM "guests"  WHERE "guests"."rsvp_id" = ? AND "guests"."id" IN (4, 5)  [["rsvp_id", 2]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "guests" SET "email" = ?, "name" = ?, "wedding_response" = ? WHERE "guests"."id" = 4[0m  [["email", "juliawhatever@gmail.com"], ["name", "Julia Whatever"], ["wedding_response", "t"]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "guests" SET "email" = ?, "wedding_response" = ? WHERE "guests"."id" = 5  [["email", "tyler@gmail.com"], ["wedding_response", "t"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  Rendered home/rsvp_done.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 14.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mjones/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/mjones/.rvm/gems/ruby-2.1.6@wedding/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-28 13:49:28 -0500
+  [1m[36mGuest Load (0.2ms)[0m  [1mSELECT "guests".* FROM "guests"[0m
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/bootstrap-select.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/flexslider.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/jquery.flexslider.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/leaflet.makimarkers.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/bootstrap-select.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/party.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-28 13:53:22 -0500
