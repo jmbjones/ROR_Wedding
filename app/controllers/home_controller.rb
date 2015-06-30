@@ -17,7 +17,9 @@ class HomeController < ApplicationController
   def update_rsvp
     rsvp = Rsvp.find_by(rsvp_code: session[:rsvp_code])
     rsvp.update_attributes(rsvp_attributes)
-    #CALL MAILER HERE
+    rsvp.guests.each do |guest|
+      ConfirmationMailer.rsvp_confirmation_email(guest).deliver!
+    end
     render "rsvp_done"
   end
 
