@@ -26,7 +26,7 @@ module Myapp
     port: 587,
     domain: 'mail.google.com',
     user_name:  'j.morgan.b.jones@gmail.com',
-    password: 'leopards1',
+    password: *******,
     authentication: 'plain',
     enable_starttls_auto: true}  
   end
